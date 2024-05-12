@@ -32,6 +32,7 @@ async function post(req, res) {
             }
         }
         res.json({
+            isSuccess: true,
             data: {
                 vistaar_cache_db: results,
             },
